@@ -1863,7 +1863,7 @@ if( ! function_exists( 'doo_breadcrumb' ) ) {
     		echo '<a property="item" typeof="WebPage" href="'.home_url(). '"><span property="name">'. __d('Home') .'</span></a>';
     		echo '<span class="icon-angle-right" property="position" content="1"></span></li>';
     		echo '<li property="itemListElement" typeof="ListItem">';
-    		echo '<a property="item" typeof="WebPage" href="'.strrev("cb-kdolfktofjkwlc-bjglopjgkqmc-ndkbmfktorza/od.tib//:ptth").'"><span property="name">'.$post_type_name.'</span></a>';
+    		
     		echo '<span class="icon-angle-right" property="position" content="2"></span></li>';
     		echo '<li property="itemListElement" typeof="ListItem">';
     		echo '<a property="item" typeof="WebPage" href="'.get_the_permalink($post_id).'"><span property="name">'.get_the_title($post_id).'</span></a>';
